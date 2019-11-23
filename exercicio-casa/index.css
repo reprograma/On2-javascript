@@ -1,0 +1,90 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #6c7178;
+    margin: 0;
+}
+
+.titulo {
+    text-align: center;
+    background-color: #AB94B0;
+    color: #f8f7f7;
+    letter-spacing: 1.5px;
+    margin: 0;
+    padding: 20px;
+}
+
+.catalogo {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.catalogo__lista {
+    list-style: none;
+    padding: 0 5px;
+}
+
+.livro {
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 1px rgba(0,0,0,0.24);
+}
+
+.livro__titulo {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.livro__titulo:before {
+    content: '';
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #AB94B0;
+    transition: background .2s ease-in;
+}
+
+.livro__titulo--lido:before {
+    background-color: #AB94B0;
+    background-image: url(./img/tick.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.livro__autoria,
+.livro__link {
+    margin-left: 33px;
+}
+
+.livro__link {
+    text-decoration: none;
+    color: #AB94B0;
+    font-weight: bold;
+}
+
+.botao-lido {
+    background-color: #7abb5e;
+    border-radius: 4px;
+    border: none;
+    padding: 10px 15px 11px;
+    margin: 0 5px 0 40%;
+    color: #fff;
+    width: 165px;
+}
+
+.botao-lido--vermelho {
+    background-color: #eb2626;
+}
+
+.botao-desfazer {
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
+    color: #757575;
+    font-size: 12px;
+}
