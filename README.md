@@ -4,11 +4,6 @@ Esse repositório, é parte do material complementar da aula de "Javascript" sem
 
 ![Capa do Slide](./docs/assets/img/javascript.gif)
 
-### Acesso ao **slide da aula**
-
-Esse link, vai direcionar ao conteúdo que praticamos em aula contendo todas as informações que vão te ajudar no processo de entendimento de lógica e javascript.
-
-
 ### Como linkar o **Javascript** no HTML
 
 Quando criamos um arquivo js, devemos indicar no arquivo html em qual lugar está sendo puxado. Para isso usamos a tag `<script>`.
@@ -34,6 +29,40 @@ Quando criamos um arquivo js, devemos indicar no arquivo html em qual lugar est�
 </body>
 </html>
 ```
+***
+### Acesso de **Forma Rapida**
+
+ * [Como linkar o Javascript no HTML](#Como-linkar-o-Javascript-no-HTML)
+
+
+
+ * [Manipulando o DOM](#Manipulando-o-DOM)
+
+ * [Métodos de manipulação - CSS](#Métodos-de-manipulação-CSS)
+
+ * [Adicionar e Remover classes do HTML](#Adicionar-e-Remover-classes-do-HTML)
+
+* [Eventos Click e Submit](#Eventos-Click-e-Submit)
+
+* [Validações com condições](#Validações-com-condições)
+
+* [Criar ou Adicionar elemento ao DOM](#Criar-ou-Adicionar-elemento-ao-DOM)
+
+* [Array [ ] e Objeto { }](#Array-[-]-e-Objeto-{-})
+
+* [Objeto Date](#Objeto-Date)
+
+* [Cursos](#Cursos)
+
+* [Sites com exercicos](#Sites-com-exercicosCursos)
+
+* [Livros](#Livros)
+
+* [Atalho VSCODE](#Atalho-VSCODE)
+
+
+
+
 
 ## DOM - Document Object Model 
 
@@ -539,6 +568,34 @@ getYear() //   retorna a soma dos anos desde 1900.
 
  [JavaScript Date Reference - Documentação](https://www.w3schools.com/jsref/jsref_obj_date.asp)
 
+# Inner
+
+## innerHTML
+
+### HTML
+```html
+  <div id="displayText"></div>
+```
+
+### Javascript
+```js
+let displayText = document.querySelector('#displayText');
+displayText.innerHTML = "<p>Texto que eu inseri no HTML</p>."
+```
+
+## innerText
+
+### HTML
+```html
+    <div id="displayText"></div>
+```
+
+### Javascript
+```js
+let displayText = document.querySelector('#displayText');
+displayText.innerText = "Texto que eu inseri no HTML."
+```
+
 # Cursos
 
  [Curso de javascript - Devmedia](https://www.devmedia.com.br/curso/introducao-a-linguagem-javascript/2330)
@@ -554,7 +611,7 @@ getYear() //   retorna a soma dos anos desde 1900.
  [Hackerrank](https://www.hackerrank.com/dashboard)
 
 
-## Livros
+# Livros
 
  [Enloquent javascript - 2 edição/Portugues ](https://braziljs.github.io/eloquente-javascript/) 
 
@@ -563,7 +620,7 @@ getYear() //   retorna a soma dos anos desde 1900.
   [Desenvolvimento Web com HTML, CSS e javascript](https://www.caelum.com.br/download/caelum-html-css-javascript.pdf)
 
 
-## Atalho VSCODE
+# Atalho VSCODE
  
  [Emmet Documentation](https://docs.emmet.io/cheat-sheet/) 
  [HTML in Visual Studio Code](https://code.visualstudio.com/docs/languages/html) 
