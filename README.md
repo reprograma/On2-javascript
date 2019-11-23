@@ -153,6 +153,18 @@ Os estilos CSS encontrados em uma página da web são mapeados no CSSOM - **Mode
     result[i].style.color="blue";
 }
 ```
+## Links para se aprofundar
+
+ [HTML DOM querySelector() - Documentação](https://www.w3schools.com/jsref/met_document_queryselector.asp)
+
+ [JavaScript - querySelectorAll()](http://www.devfuria.com.br/javascript/dom-queryselectorall/)
+
+ [JavaScript - getElementById()](http://www.devfuria.com.br/javascript/dom-getelementbyid/)
+
+ [JavaScript - getElementsByClassName()](http://www.devfuria.com.br/javascript/dom-getelementsbyclassname/)
+
+ [JavaScript - getElementsByTagName()](http://www.devfuria.com.br/javascript/dom-getelementsbytagname/)
+
 
 ## Adicionar e Remover classes do HTML
 
@@ -192,6 +204,13 @@ Quando utilizamos o método `toggle`, conseguimos adicionar ou remover uma class
 paragrafo.classList.toggle("styleTwo"); // Adicionar
 paragrafo.classList.toggle("styleTwo"); // Remove
 ```
+## Links para se aprofundar
+
+ [Element.classList - Documentação](https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList)
+
+ [HTML DOM classList - Documentação](https://www.w3schools.com/jsref/prop_element_classlist.asp)
+
+ [Adding, Removing & Toggling Classes With classList in JavaScript](https://alligator.io/js/classlist//)
 
 
 ## Eventos Click e Submit 
@@ -297,6 +316,13 @@ function mostrarNome(){
     alert(name)
 }
 ```
+## Links para se aprofundar
+
+ [The addEventListener()  - Documentação](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+
+ [ADDEVENTLISTENER E REMOVEEVENTLISTENER- JAVASCRIPT](https://bognarjunior.wordpress.com/2014/12/17/addeventlistener-e-removeeventlistener-javascript/)
+
+
 
 ## Validações com condições
 
@@ -404,6 +430,18 @@ function minhaFuncao() {
 }
 ```
 
+## Links para se aprofundar
+
+ [Document.createElement() - Documentação](https://developer.mozilla.org/pt-BR/docs/Web/API/Document/createElement)
+
+[HTML DOM createElement() ](https://www.w3schools.com/jsref/met_document_createelement.asp)
+
+[JavaScript - Create Element (DOM)](http://www.devfuria.com.br/javascript/dom-create-element/)
+
+[JavaScript - Append Child (DOM)](http://www.devfuria.com.br/javascript/dom-append-child/)
+
+[JavaScript - Remove Child (DOM)](http://www.devfuria.com.br/javascript/dom-remove-child/)
+
 # Array [ ] e Objeto { }
 
 ## Array [ ]
@@ -426,6 +464,14 @@ sanduiches.length; // retorna 3, a quantidade de atributos dentro do array.
 
 **Observação :**
 Em javascript as posições sempre inicam a contagem a partir do 0 (zero).
+
+## Links para se aprofundar
+
+ [Javascript Arrays](https://www.devmedia.com.br/javascript-arrays/4079)
+
+[Array - Documentação](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
 
 ## Objeto { }
 
@@ -452,6 +498,13 @@ pessoa.idade
 pessoa.falar() 
 pessoa.rir()
 ```
+## Links para se aprofundar
+
+ [Objeto, noções básicas - Documentação](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Objetos/B%C3%A1sico)
+
+ [Trabalhando com classes e objetos em JavaScript](https://www.devmedia.com.br/poo-trabalhando-com-classes-e-objetos-em-javascript/28434)
+
+ [JavaScript Objects - Documentação](https://www.w3schools.com/js/js_objects.asp)
 
 # Objeto Date 
 
@@ -478,3 +531,39 @@ getDay()  // Não retorna o dia do mês, mas sim o dia da semana.
 getMonth()  // Retorna o mês atual, mas a contagem inicia em 0.
 getYear() //   retorna a soma dos anos desde 1900.
 ```
+## Links para se aprofundar
+
+ [Javascript Date](https://www.devmedia.com.br/javascript-date-trabalhando-com-data-e-hora/40649)
+
+ [Entendendo o Objeto Date()](http://www.linhadecodigo.com.br/artigo/1003/entendendo-o-objeto-date-do-javascript.aspx)
+
+ [JavaScript Date Reference - Documentação](https://www.w3schools.com/jsref/jsref_obj_date.asp)
+
+# Cursos
+
+ [Curso de javascript - Devmedia](https://www.devmedia.com.br/curso/introducao-a-linguagem-javascript/2330)
+
+ [Cuso de javascript - Rocketseat](https://skylab.rocketseat.com.br/node/curso-java-script)
+
+ [Curso de javascript/Gustavo Guanabara - Curso em video](https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&t=0s)
+
+# Sites com exercicos
+
+ [Freecodecamp](https://www.freecodecamp.org/learn)
+
+ [Hackerrank](https://www.hackerrank.com/dashboard)
+
+
+## Livros
+
+ [Enloquent javascript - 2 edição/Portugues ](https://braziljs.github.io/eloquente-javascript/) 
+
+  [Enloquent javascript - 3 edição/Inglês ](https://eloquentjavascript.net)
+
+  [Desenvolvimento Web com HTML, CSS e javascript](https://www.caelum.com.br/download/caelum-html-css-javascript.pdf)
+
+
+## Atalho VSCODE
+ 
+ [Emmet Documentation](https://docs.emmet.io/cheat-sheet/) 
+ [HTML in Visual Studio Code](https://code.visualstudio.com/docs/languages/html) 
