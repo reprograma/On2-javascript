@@ -2,22 +2,37 @@
 
 Esse é um exercício casa, para você treinar tudo o que aprendemos em aula. Aqui você vai colocar em prática, métodos como função, variáveis e condicionais. 
 
-![Imagem Desafio](../docs/assets/img/biblioteca-reprograma.PNG)
+![Imagem Desafio](../docs/assets/img/to-do-list.PNG)
 
 
 O arquivo de estrutura HTML e CSS, já estão disponíveis e montadas para que você não perca tempo na confecção da página, a sua missão vai ser realizar a interação desse checklist com javascript.
 
 ## Passo a passo
 
-O objetivo do exercício é o seguinte: você vai criar um checklist  com a lista de alguns livros que você deseja ler utilizando apenas o DOM.
-Em cada item da lista deve ser possível, marcar e desmarcar com lido, quando clicar no botão.
-Use a imagem acima como referência, para montar a estrutura. 
+O objetivo do exercício é o seguinte:  criar uma "lista de tarefas" para organizar e priorizar tarefas. Tem como objetivo exercitar os conhecimento adquiridos em HTML, CSS, Javascript e lógica.
 
 ### Primeiro
 
-No arquivo HTML, já disponível e estruturado para você, a sua missão vai ser primeiramente linkar  as tags do html ao javascript.
+- Adicionar itens na lista
+- Poder dar check neles
+- Validar campo de texto para não entrar itens vazios
+- Limpar campo de texto depois que insere o item na lista
 
-### Segunda 
+### Segundo 
 
-No arquivo javascript, você vai estruturar todo o código. 
-Vou deixar você pensar um pouquinho.  
+- Poder excluir itens da lista individualmente;
+
+### Terceiro 
+
+- Marcar todos os itens como feito
+- Limpar lista, excluir todos os itens da lista
+
+### Quarto
+
+- Não permitir que um item seja adicionado se só tiver espaços e nenhum texto no input
+
+## BÔNUS
+
+- Editar tarefa
+- Adicionar etiqueta à tarefa
+- Botão "Remover Completos" (quando clicado, ele remove somente as tarefas com "check")

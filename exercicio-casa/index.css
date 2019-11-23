@@ -1,90 +1,160 @@
-body {
+body{
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #6c7178;
-    margin: 0;
+    background-image: -webkit-gradient(linear, left top, right top, from(#e0c3fc), to(#8ec5fc));
+   
+    
 }
-
-.titulo {
-    text-align: center;
-    background-color: #AB94B0;
-    color: #f8f7f7;
-    letter-spacing: 1.5px;
-    margin: 0;
-    padding: 20px;
-}
-
-.catalogo {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.catalogo__lista {
-    list-style: none;
-    padding: 0 5px;
-}
-
-.livro {
-    padding: 10px;
-    margin-bottom: 20px;
-    box-shadow: 0px 1px rgba(0,0,0,0.24);
-}
-
-.livro__titulo {
-    display: flex;
+.container{
+    display:flex;
     align-items: center;
-    font-size: 16px;
+    background-color: white;
+    flex-direction: column;
+    max-width: 390px;
+    min-height: 80vh;
+    margin: 50px auto;
+    position: relative;
+    padding-bottom: 70px;
+    box-sizing: border-box;
 }
-
-.livro__titulo:before {
-    content: '';
-    display: inline-block;
-    width: 23px;
-    height: 23px;
-    margin-right: 10px;
-    border-radius: 50%;
-    border: 1px solid #AB94B0;
-    transition: background .2s ease-in;
+.form{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
 }
-
-.livro__titulo--lido:before {
-    background-color: #AB94B0;
-    background-image: url(./img/tick.png);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.livro__autoria,
-.livro__link {
-    margin-left: 33px;
-}
-
-.livro__link {
-    text-decoration: none;
-    color: #AB94B0;
+.btntarefa{
+    width: 100%;
+    padding: 15px;
     font-weight: bold;
-}
-
-.botao-lido {
-    background-color: #7abb5e;
-    border-radius: 4px;
+    background-color: white; 
+    color: #ba7af8; ;
+    font-size: 20px;
     border: none;
-    padding: 10px 15px 11px;
-    margin: 0 5px 0 40%;
-    color: #fff;
-    width: 165px;
+    border-style: solid;
+    border-color: #ba7af8;
+    letter-spacing: 2px;
+    cursor:pointer;
+    outline: none;
 }
 
-.botao-lido--vermelho {
-    background-color: #eb2626;
+/* Documentação Mozila */
+::-moz-selection{ 
+    background: transparent;
 }
 
-.botao-desfazer {
-    background-color: transparent;
-    border-radius: 4px;
+::selection{
+    background: transparent;
+}
+
+
+.btntarefa:hover {
+    background-color: rgb(229, 225, 230);
+}
+
+.campo{
+    padding: 30px;
     border: none;
-    padding: 0;
-    margin: 0 5px;
-    color: #757575;
-    font-size: 12px;
+    border-top: 1px rgb(201, 201, 201) solid;
+    text-align: center;
+    
+}
+
+input {
+    font-size: 15px;
+}
+
+.tarefas{
+    width: 100%;       
+}
+
+
+.divTarefas {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:  0 30px;
+    cursor: grab; 
+    border-bottom: 1px rgb(201, 201, 201) solid;
+}
+
+.divTarefas:hover {
+    background-color: #ba7af8;      
+}
+
+span {
+    color: #a247fd;
+}
+
+.checado{
+    text-decoration:line-through;
+    color:grey;
+}
+
+.botoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.btnselecionar{
+    background-color: #ba7af8;
+    border: none;
+    /* border-radius: 10%; */
+    padding: 1%;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.btnexcluir{
+    background-color: white;
+    border-color:#ba7af8;
+    /* border-radius: 10%; */
+    padding: 1% 6%;
+    color: #ba7af8;
+    border: none;
+    border-style: solid;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.btnexcluir:hover {
+    background-color: rgb(229, 225, 230);
+}
+@media(max-width:420px){
+    .container{
+        max-width: 300px;
+        
+    }
+    h1{
+        font-size: 15px;
+
+    }
+    .campo{
+        padding: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .btntarefa{
+        padding: 7px;
+        font-size: 15px;
+    }
+    .botoes{
+        flex-direction: column;
+        width: 50%;  
+    }
+    .btnselecionar{
+        margin-bottom: 4%;
+        border-color:#ba7af8;
+        border-style: solid;   
+    }
+
+
 }
