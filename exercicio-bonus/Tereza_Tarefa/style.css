@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+}
+
+header{
+ color: white;
+ text-align: center;
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.music{
+    width: 130px;
+    height:  130px;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+img{
+    width: 230px;
+    height:  230px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
+
+#card_titulo{
+    text-align: center;
+    padding: 10px;
+}
+
+DIA{
+    
+body{
+    background-color: yellow;
+}
+
+header{
+ color:orange;
+ text-align: left;
+}
+
+footer{
+    color:orange;
+}
+
+.music{
+    background-color:yellow;
+}
+
+
+#card_titulo{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+}
