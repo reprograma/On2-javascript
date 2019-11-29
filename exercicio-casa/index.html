@@ -13,18 +13,20 @@
 <body>
     <section class="container">
         <h1>Adicione uma nova tarefa</h1>
-        <form class="form">
-            <input type="text" class="campo" placeholder="Digite aqui">
-            <input class="btntarefa" type="submit" value="ADICIONAR"></input>
+        <form id="formulario" class="form">
+            <input id="entrada" type="text" class="campo" placeholder="Digite aqui">
+            <input id="btnTarefa" class="btntarefa" type="submit" value="ADICIONAR"></input>
         </form>
-        <div class="tarefas">
+        <div id="tarefas" class="tarefas">
 
         </div>
         <div class="botoes">
-            <button class="btnselecionar">Selecionar Tarefas</button>
-            <button class="btnexcluir">Excluir Tarefas</button>
+            <button  id="selecionar" class="btnselecionar">Selecionar Tarefas</button>
+            <button id="excluir" class="btnexcluir">Excluir Tarefas</button>
         </div>
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
