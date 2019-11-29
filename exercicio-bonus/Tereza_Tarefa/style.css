@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: yellow;
+    background-color:orange;
     font-family: 'Archivo', sans-serif;
     font-size: 20px;
 }
@@ -50,32 +50,4 @@ div{
 #card_titulo{
     text-align: center;
     padding: 10px;
-}
-
-DIA{
-    
-body{
-    background-color: yellow;
-}
-
-header{
- color:orange;
- text-align: left;
-}
-
-footer{
-    color:orange;
-}
-
-.music{
-    background-color:yellow;
-}
-
-
-#card_titulo{
-    text-align: center;
-    padding: 10px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 }
