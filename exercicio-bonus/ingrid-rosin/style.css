@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(90, 84, 179, 0.904);
+    font-family: 'Archivo', sans-serif;
+    font-size: 20px;
+}
+
+header{
+ color: white;
+ text-align: center;
+}
+
+section{
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+width: 50%;
+margin: auto;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+}
+
+footer{
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+img{
+    width: 230px;
+    height:  230px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+div{
+    text-align: center;
+    padding: 10px;
+}
