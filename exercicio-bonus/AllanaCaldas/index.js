@@ -23,6 +23,6 @@ function carregar() {
     } else {
         img.src = './img/boa-noite.jpg';
         document.body.style.backgroundColor = '#000f1f';
-        recado = "Hora de retonar a sua casa, boa sorte no trânsito"
+        recado = "Hora de retonar a sua casa, boa sorte no trânsito!"
     }
 }
