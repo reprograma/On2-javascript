@@ -1,0 +1,160 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: -webkit-gradient(linear, left top, right top, from(#e0c3fc), to(#8ec5fc));
+   
+    
+}
+.container{
+    display:flex;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    max-width: 390px;
+    min-height: 80vh;
+    margin: 50px auto;
+    position: relative;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+}
+.btntarefa{
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    background-color: white; 
+    color: #ba7af8; ;
+    font-size: 20px;
+    border: none;
+    border-style: solid;
+    border-color: #ba7af8;
+    letter-spacing: 2px;
+    cursor:pointer;
+    outline: none;
+}
+
+/* Documentação Mozila */
+::-moz-selection{ 
+    background: transparent;
+}
+
+::selection{
+    background: transparent;
+}
+
+
+.btntarefa:hover {
+    background-color: rgb(229, 225, 230);
+}
+
+.campo{
+    padding: 30px;
+    border: none;
+    border-top: 1px rgb(201, 201, 201) solid;
+    text-align: center;
+    
+}
+
+input {
+    font-size: 15px;
+}
+
+.tarefas{
+    width: 100%;       
+}
+
+
+.divTarefas {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:  0 30px;
+    cursor: grab; 
+    border-bottom: 1px rgb(201, 201, 201) solid;
+}
+
+.divTarefas:hover {
+    background-color: #ba7af8;      
+}
+
+span {
+    color: #a247fd;
+}
+
+.checado{
+    text-decoration:line-through;
+    color:grey;
+}
+
+.botoes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+.btnselecionar{
+    background-color: #ba7af8;
+    border: none;
+    /* border-radius: 10%; */
+    padding: 1%;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+.btnexcluir{
+    background-color: white;
+    border-color:#ba7af8;
+    /* border-radius: 10%; */
+    padding: 1% 6%;
+    color: #ba7af8;
+    border: none;
+    border-style: solid;
+    outline: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    
+}
+
+.btnexcluir:hover {
+    background-color: rgb(229, 225, 230);
+}
+@media(max-width:420px){
+    .container{
+        max-width: 300px;
+        
+    }
+    h1{
+        font-size: 15px;
+
+    }
+    .campo{
+        padding: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+    .btntarefa{
+        padding: 7px;
+        font-size: 15px;
+    }
+    .botoes{
+        flex-direction: column;
+        width: 50%;  
+    }
+    .btnselecionar{
+        margin-bottom: 4%;
+        border-color:#ba7af8;
+        border-style: solid;   
+    }
+
+
+}
